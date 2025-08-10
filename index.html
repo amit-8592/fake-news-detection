@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2> detecting through a ML model </h2>
+      <div class="container">
+        <h1>📰 Fake News Detector</h1>
+
+        <form id="newsForm" enctype="multipart/form-data">
+            <textarea name="news_text" placeholder="Enter news article here..."></textarea>
+            <input type="file" name="news_image" accept="image/*">
+            <button type="submit">🚀 Check News</button>
+        </form>
+
+        <div id="result" class="result"></div>
+
+        <div id="fact-check" class="result"></div>
+
+        <div id="votes" class="result"></div>
+    </div>
 
 </body>
 </html>
